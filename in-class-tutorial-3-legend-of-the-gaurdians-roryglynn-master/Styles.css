@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap');
+body {
+	padding: 0;
+	margin: 0;
+	color: #000000;
+	font-size: 14px;
+	line-height: 14px;
+	background-color: #000000;
+}
+.page-container {
+	margin: 0 auto;
+	width: 900px;
+	background-color: #BDA188;
+}
+.content-container {
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	background-color: #0311AD;
+	border-width: 540px;
+	float: right;
+	width: 540px;
+}
+main {
+	padding: 0 15px;
+	background-color: #BDA188;
+overflow: auto;
+}
+.sidebar {
+	padding: 0 15px;
+	width: 270px;
+	background-color: #E96500;
+	float: left;
+}
+h2 {
+	font-weight: 400;
+}
+nav ul li a:hover  {
+	color: #FFFFFF;
+}
+
+
+footer {
+	margin-top: 0px;
+	margin-left: 30px;
+	padding: 12px 0px;
+	margin-right: 30px;
+	background-color: #00;
+	clear: both;
+}
+nav {
+	background-color: #413615;
+	background-image: url(images/nav_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 48px;
+}
+
+nav ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+nav ul li {
+	float: left;
+	width: 180px;
+	text-align: center;
+	color: #0BDAE4;
+	padding: 0;
+}
+nav ul li a {
+	padding: 0;
+	line-height: 48px;
+	display: block;
+	text-decoration: none;
+	color: #CCCC99;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'Marcellus SC',Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.gallery {
+	padding: 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	list-style-type: none;
+}
+.gallery li {
+	float: left;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	padding-top: 9px;
+	padding-bottom: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+
+
+}
